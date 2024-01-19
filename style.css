@@ -1,0 +1,103 @@
+body{
+    background-color: rgba(46, 44, 75, 0.986);
+    font-family: 'Satisfy';
+    color: white;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    background-color: rgba(46, 44, 75, 0.986);
+}
+.menu_logo{
+    max-width: 150px;
+}
+
+.menu_lista{
+display: flex;
+justify-content: center;
+align-items:center ;
+gap: 30px;
+}
+
+.menu_lista_item{
+    color: #FFAA5A;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: 'Satisfy';
+}
+.menu_curriculo{
+    color: #FFAA5A;
+    font-family: 'Satisfy';
+    font-size: 24px;
+    background-color: #252525;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url("https://wallpaperaccess.com/full/8881418.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.banner_infos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh ;
+    gap: 20px;
+    background-color:#00000073;
+    padding: 60px;
+    border-radius: 0px 0px 60px 60px;
+}
+
+.banner_info_imagem{
+    max-width: 400px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.banner_info_nome{
+    font-size: 40px;
+    font-family: 'Satisfy';
+    color:white;
+}
+
+.banner_info_cargo{
+    font-size: 20px;
+    font-family: 'Satisfy';
+    color:white ;
+}
+
+
+.sobre{
+max-width: 80vw;
+margin: 60px auto;
+border-top: 10px solid #252525;
+border-bottom: 10px solid #252525;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.sobre_infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sobre_infos_titulo{
+    font-family: 'Satisfy';
+    font-size: 60px;
+}
+.sobre_infos_texto{
+    line-height: 1.5;
+    font-size: 24px;
+}
